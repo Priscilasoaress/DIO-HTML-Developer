@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+ }
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    color:#ffffff;
+    width: 15%;
+    background-color:#093D65;
+    padding: 10px 20px 0px;
+}
+
+.header {
+    background-color: white;
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: verdana;
+}
+.footer {
+    background-color: rgb(249, 142, 84);
+    min-height: 150px;
+    font-family: verdana;
+    padding: 50px;
+}
+.table {
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 5px 0px rgba(224, 233, 240, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(224, 233, 240, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(224, 233, 240, 0.75);
+}
+.table thead th{
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgba(9,61,101,0.75);
+    color: White;
+    padding: 10px;
+}
+.table tbody td{
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(164, 181, 194, 0.75);
+    padding: 5px;
+}
+
+
+    
+
+
